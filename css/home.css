@@ -1,0 +1,12 @@
+body {
+	background-color: #3a0e0e;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+.character {
+	width: 100%;
+	max-width: 364px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+}

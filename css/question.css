@@ -1,0 +1,64 @@
+body {
+background-color: #703d43;
+}
+.progress {
+	max-width: 500px;
+	height: 20px;
+	background-color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	margin-bottom: 60px;
+}
+.progress .value {
+	width: 10%;
+	height: 20px;
+	background-color: #691b24;
+	border-radius: 10px;
+	transition: 0.2s;
+}
+.question-box {
+	max-width: 420px;
+	background-color: #fff;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+}
+.question-box .number {
+	font-size: 60px;
+	font-weight: 900;
+	text-align: center;
+	color: #691b24;
+	margin-bottom: 30px;
+}
+.question-box .question {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.5;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.question-box .choice {
+	border-radius: 120px;
+	font-size: 22px;
+}
+
+@media (max-width) {
+	.progress {
+		margin-bottom: 30px;
+	}
+	.question-box {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.question-box .question {
+		font-size: 28px
+	}
+	.question-box .choice {
+		font-size: 20px;
+	}
+}
