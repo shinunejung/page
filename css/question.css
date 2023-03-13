@@ -47,18 +47,19 @@ background-color: #703d43;
 	font-size: 22px;
 }
 
-@media (max-width) {
-	.progress {
-		margin-bottom: 30px;
-	}
-	.question-box {
-		padding-left: 12px;
-		padding-right: 12px;
-	}
-	.question-box .question {
-		font-size: 28px
-	}
-	.question-box .choice {
-		font-size: 20px;
-	}
+@media (max-width: 640px) {
+.progress {
+margin-bottom: 30px;
+}
+.question-box {
+padding-left: 12px;
+padding-right: 12px;
+}
+.question-box .question {
+font-size: 28px
+}
+.question-box .choice {
+font-size: 20px;
+text-align: center;;
+}
 }
